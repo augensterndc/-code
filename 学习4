@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<string.h>
+int main() {
+	char arr1[] = "abc\0";// \0字符串的结束标志,隐藏在字符串的末尾，不算做字符串内容！！！！！
+	char arr2[] = {'a','b','c',};//正确写法是{‘a'，’b'，‘c','\0'},\0或0都可以
+	//strlen=string-length
+	//   "\"是转义符号
+	printf("%s\n",arr1);
+	printf("%s\n", arr2);
+	printf("%d\n", strlen(arr1));//长度为3，\0不计入字符串内容
+    printf("%d\n", strlen(arr2));//长度是随机值，若修改正确，则值为3
+	return 0;
+}
