@@ -11,3 +11,20 @@
 //		printf("不死火\n");
 //	return 0;
 //}
+
+
+//循环语句！！！  （for语句； while语句； do...while语句）
+//#include<stdio.h>
+//int main()
+//{ 
+//	int line = 0;
+//	printf("进入大学\n");
+//	printf("我要好好学习，天天敲代码！\n");
+//	while (line < 2000) {
+//		printf("敲代码;%d\n", line);
+//		line++;
+//	}
+//	if (line >= 1000);
+//	printf("成功找到好工作，月薪1w+\n");
+//	return 0;
+//}
