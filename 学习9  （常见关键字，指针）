@@ -1,0 +1,20 @@
+//常见关键字{auto,break,case,char,int,short,long,longlong,float,double,const,continue,default,do,else,enum,extern,for,goto,if,register,return,signed,sizeof,
+//static,struct,switch,typedef,union,unsigned,void,volatiel,while}
+//typedef---类型定义 例如：typedef unsigned int u-int
+//static--修饰局部变量，局部变量的生命周期变长
+//static--修饰全局变量，改变了全局变量的作用域，让静态的全局变量只能在自己所在的源文件内部使用，出了源文件就没办法使用了
+//static--修饰函数，改变了函数的链接属性，外部链接属性 ->内部链接属性
+//define--定义标识符常量和宏
+
+//指针
+//#include<stdio.h>
+//int main() {
+//	int a = 0;
+//	int* p = &a;//取地址
+//	printf("%d\n", a);
+//	printf("%p\n", &a);
+//	printf("%p\n", p);
+//	*p = 1;//*--解引用操作符
+//	printf("%d\n", a);
+//	return 0;
+//}
